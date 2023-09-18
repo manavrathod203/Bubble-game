@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter",Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid red; */
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #b8b8ff;
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border: 4px solid #9381ff;
+    border-radius: 10px;
+    background-color: #f8f7ff;
+}
+
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height:70px;
+    padding: 0px 30%;
+    background-color: #6650e6;
+    color: #F9F5EB;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info h3{
+    font-weight: 400;
+}
+
+.box{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #F9F5EB;
+    color: #9381ff;
+}
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 70px);
+    padding: 15px;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #9381ff;
+    color: #F9F5EB;
+}
+
+.hidden-number{
+    visibility: hidden;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #6650e6;
+}
+
+.over-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.over-menu>h1{
+    font-size: 40px;
+}
+
+.over-menu h2{
+    font-size: 35px;
+}
+.over-menu h2 span{
+    color: #6650e6;
+}
+
+
+button{
+    padding: 15px 25px;
+    background-color: #9381ff;
+    color: #F9F5EB;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    transition: 250ms ease;
+}
+
+button:hover{
+    background-color: #6650e6;
+}
